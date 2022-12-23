@@ -10,6 +10,7 @@ export class IndexComponent implements OnInit {
   constructor(private ebirdService: EBirdService) {}
 
   ngOnInit() {
+    console.log('test');
     this.ebirdService.nearBirds('US-IL').subscribe((data) => console.log(data));
   }
 }
