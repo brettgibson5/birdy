@@ -69,9 +69,9 @@ export default function Home() {
             <h2 className={inter.className}>
               Docs <span>-&gt;</span>
             </h2>
-            <p className={inter.className}>
+            <h1 className="text-3xl font-bold underline">
               Find in-depth information about Next.js features and&nbsp;API.
-            </p>
+            </h1>
           </a>
 
           <a
